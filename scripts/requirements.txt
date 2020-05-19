@@ -1,0 +1,22 @@
+# Plombot pip requirements
+# discord + pre-reqs
+discord.py[voice]
+asyncio
+PyNaCl
+requests
+
+# APIs
+dblpy        # Discord Bot List
+lyricsgenius # Genius
+spotipy      # Spotify
+youtube-dl   # YouTube
+isodate      # - parsing YouTube video durations
+opendota2py  # OpenDota
+
+# Testing
+pytest
+pytest-asyncio
+
+# Text table generator
+wcwidth
+texttable
