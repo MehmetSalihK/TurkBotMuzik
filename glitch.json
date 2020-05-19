@@ -1,0 +1,21 @@
+{
+  "install": "python3 -m pip install -r scripts/requirements.txt",
+  "start": "PYTHONUNBUFFERED=true python3 plombot.py",
+  "watch": {
+    "ignore": [
+      "\\.pyc$"
+    ],
+    "install": {
+      "include": [
+        "^requirements\\.txt$"
+      ]
+    },
+    "restart": {
+      "include": [
+        "\\.py$",
+        "^start\\.sh"
+      ]
+    },
+    "throttle": 9000000
+  }
+}
